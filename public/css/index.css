@@ -1,6 +1,7 @@
 html {
 	box-sizing: border-box;
 	font-size: 16px;
+	min-width: 340px;
 }
 
 *, *:before, *:after {
@@ -14,7 +15,6 @@ body {
 	background-color: #181719;;
 	display: flex;
 	justify-content: center;
-	min-width: 375px;
 }
 
 a, h1, h2, p {
@@ -88,6 +88,10 @@ header h1 {
 	border: solid white 1px;
 	padding: 8px;
 	min-width: 104px;
+}
+
+header nav {
+	display: flex;
 }
 
 header nav > a {
@@ -289,7 +293,7 @@ footer p a {
 	div.container {
 		margin: 10px;
 	}
-	
+
 	main {
 		padding: 20px 0 90px 0;
 	}
